@@ -27,3 +27,6 @@ jobs:
       uses: alexanderdamiani/pytester-cov@v1.2.0
       with:
         pytest-root-dir: '.'
+      run: |
+        pip install pytest
+        python -m pytest
